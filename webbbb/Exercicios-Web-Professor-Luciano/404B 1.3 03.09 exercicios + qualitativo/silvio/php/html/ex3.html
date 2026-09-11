@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+</head>
+<body>
+    <form action="ex3.php" method="post">
+        <label for="anos">Número de anos que fuma</label> 
+        <input type="number" name="anos" step="any" id="anos" min="0" required> <br>
+        <label for="cigarro_dia">Numero de cigarros por dia</label>
+        <input type="number" name="cigarro_dia" step="any" id="cigarro_dia" min="0" required> <br>
+        <label for="preco_carteira">Valor da carteira</label>
+        <input type="number" name="preco_carteira" id="preco_carteira" min="0.01" required>
+<br>    <button type="submit">Calcular gasto total</button>
+    </form>
+</body>
+</html>

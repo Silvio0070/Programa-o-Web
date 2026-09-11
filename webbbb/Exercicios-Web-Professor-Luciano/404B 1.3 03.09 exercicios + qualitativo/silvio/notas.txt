@@ -1,0 +1,7 @@
+extensão readline
+diferença echo e print
+TEnho que refazer o exercicio 1 pq foi apagado!!!!
+operador ternario
+tem o switch e o case pra ver dps tbm
+01/09 
+
