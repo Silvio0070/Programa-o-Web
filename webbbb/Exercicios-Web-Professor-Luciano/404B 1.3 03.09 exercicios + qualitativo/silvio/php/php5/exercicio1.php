@@ -6,5 +6,5 @@ $usuario = [
     "cidade" => " Teresina"
 ];
 
-echo  "O usuário " . $usuario['nome'] . " tem " . $usuario['Idade'] . " " . "e mora em " . $usuario['cidade'];
+echo  "O usuário " . $usuario['nome'] . " tem " . $usuario['Idade'] . " anos " . "e mora em " . $usuario['cidade'];
 ?>
