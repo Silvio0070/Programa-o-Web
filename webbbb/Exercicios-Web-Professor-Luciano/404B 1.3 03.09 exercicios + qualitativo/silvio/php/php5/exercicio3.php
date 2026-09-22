@@ -16,9 +16,9 @@ $tudo = [
     "estoque" => 200
     ],
 ];
-
-foreach($tudo as $prod => $val){
-    echo "";
+foreach($tudo as $tudo){
+    echo "Produto: " . $tudo["nome"] . "\nPreço: " . $tudo["preço"] . "\nEstoque: " . $tudo["estoque"];
+    echo "\n\n";
 }
 
 ?>
