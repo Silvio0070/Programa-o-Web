@@ -1,0 +1,11 @@
+<?php
+$carrinho = [
+    'produto' => 'Fone de Ouvido',
+    'quantidade' => 3,
+    'preco_unitario' => 50.00
+];
+
+$carrinho['preco_total'] = $carrinho['quantidade'] * $carrinho['preco_unitario'];
+
+print_r($carrinho);
+?>
