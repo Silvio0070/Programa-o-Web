@@ -1,9 +1,9 @@
 <?php
 $pessoas = [
-    ['nome' => 'Ana', 'idade' => 15],
-    ['nome' => 'Carlos', 'idade' => 20],
-    ['nome' => 'Mariana', 'idade' => 18],
-    ['nome' => 'Lucas', 'idade' => 12]
+    ['nome' => 'silvio', 'idade' => 17],
+    ['nome' => 'brenda', 'idade' => 16],
+    ['nome' => 'fulano', 'idade' => 18],
+    ['nome' => 'ciclano', 'idade' => 12]
 ];
 
 foreach ($pessoas as $pessoa) {
